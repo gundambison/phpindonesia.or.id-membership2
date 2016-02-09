@@ -1,5 +1,34 @@
-public/files/*
-protected/settings.php
-composer.phar
-composer.lock
-composer.json
+# Generic
+# --------------------------
+Thumbs.db
+Desktop.ini
+Icon?
+.directory
+*.cache
+*.old
+*.zip
+*.phar
+*~
+
+# Development files
+# --------------------------
+app/settings.php
+.env
+
+# Dependency folders
+# --------------------------
+/vendor
+/.htaccess
+
+# IDE Project Configurations
+# --------------------------
+nbproject/
+.idea/
+.settings/
+.project
+*.sublime-*
+
+# But Keep these
+# --------------------------
+!/www/.htaccess
+!.gitkeep
